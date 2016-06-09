@@ -25,7 +25,7 @@ package com.test;
 
 				// get the property value and print it out
 				System.out.println(prop.getProperty("database"));
-//				System.out.println(prop.getProperty("dbuser"));
+      			System.out.println(prop.getProperty("dbuser"));
 //				System.out.println(prop.getProperty("dbpassword"));
 
 			} catch (IOException ex) {
